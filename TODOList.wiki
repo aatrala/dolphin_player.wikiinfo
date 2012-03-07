@@ -8,7 +8,7 @@
 
 =Enhancements=
   * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
-  * Integrating libsdl 1.3 
+  * Integrating libsdl 1.3 - Hardware acceleration
   * Portrait view
   * Support for online Streams (audio, video)
   * Support for opening from other file managers
@@ -19,6 +19,9 @@
   * Auto search videos and audios and show in list
   * Recently played audios, videos
   * Improve lighting
+  * File manager - video thumbnail support
+  * Audio enhancement plugins - Fast playing, Slow playing, Audio amplifications, SRS
+  * playing HD videos
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
