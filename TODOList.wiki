@@ -1,14 +1,16 @@
 #labels Phase-Support
-List of tasks pending in Dolphin Player
+*List of tasks pending in Dolphin Player*
 
 =Bugs=
-* On incoming call, pause the player (audio/video)
 
-* Changing aspect ratio, clear the screen
+  * On incoming call, pause the player (audio/video)
+
+  * Changing aspect ratio, clear the screen
 
 * Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
 
 =Nice to have=
+
 * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
 
 * Portrait view
@@ -22,5 +24,6 @@ List of tasks pending in Dolphin Player
 * Hardware acceleration decoding videos
 
 =Futuristic features=
+
 * Create playlist based on current user emotions
 * Speech recognition for player controls [Ongoing]
