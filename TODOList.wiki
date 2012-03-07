@@ -6,7 +6,7 @@
   * Changing aspect ratio, clear the screen
   * Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
 
-=Nice to have=
+=Enhancements=
   * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
   * Portrait view
   * Support for online Streams (audio, video)
