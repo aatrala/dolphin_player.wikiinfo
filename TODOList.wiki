@@ -4,7 +4,7 @@
 =Bugs=
   * On incoming call, pause the player (audio/video)
   * Changing aspect ratio, clear the screen
-  * Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
+  * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
 
 =Enhancements=
   * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
@@ -16,6 +16,8 @@
   * Hardware acceleration decoding videos
   * Change audio streams of a video file in run time
   * Change subtitle stream of a video file in run time
+  * Auto search videos and audios and show in list
+  * Recently played audios, videos
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
