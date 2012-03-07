@@ -3,25 +3,28 @@ List of tasks pending in Dolphin Player
 
 = Introduction =
 
-Bugs
+=Bugs=
 1. On incoming call, pause the player (audio/video)
 2. Changing aspect ratio, clear the screen
 3. Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
 4. 
 
-Nice to have
-* Integrating latest FFmpeg with all codecs for V5, V6, V6+VFP, V7, V7+Neon
-* Portrait view
-* Support for online Streams (audio, video)
-* Support for opening from other file managers
-* Better GUI
-* Hardware acceleration decoding videos
+=Nice to have=
+Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
 
-Futuristic features
-* Create playlist based on current user emotions
-* Speech recognition for player controls [Ongoing]
-* 
+Portrait view
 
+Support for online Streams (audio, video)
+
+Support for opening from other file managers
+
+Better GUI
+
+Hardware acceleration decoding videos
+
+=Futuristic features=
+Create playlist based on current user emotions
+Speech recognition for player controls [Ongoing]
 
 
 = Details =
