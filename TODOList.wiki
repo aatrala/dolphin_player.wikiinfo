@@ -15,6 +15,6 @@
   * Hardware acceleration decoding videos
 
 =Futuristic features=
-  * Speech recognition for player controls [Ongoing]
+  * Speech recognition for player controls `[Ongoing`]
   * Create playlist based on current user emotions
   
