@@ -16,14 +16,25 @@
   * Hardware acceleration decoding videos
   * Change audio streams of a video file in run time
   * Change subtitle stream of a video file in run time
-  * Auto search videos and audios and show in list
-  * Recently played audios, videos
+  * FileManager - Auto search videos and audios and show in list
+  * FileManager - Recently played audios, videos 
   * Improve lighting
   * File manager - video thumbnail support
   * Audio enhancement plugins - Fast playing, Slow playing, Audio amplifications, SRS
   * playing HD videos
+  * Verifying existing translations of App
+  * Translations are to be created for new languages
+  * Better Icons & Images for Player
+  * Keyboard support
+  * Widget support
+  * Notifications ??
+  * Showing current time, dragged by User in Seek bar
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
   * Create playlist based on current user emotions
-  
+
+=Research=
+  * Various GUI Modifications can be tried out (for eg., New User Interfaces like Clutter UI) to present a better file manager
+  * Optimization based on the type of the cpu features(v5,v6,v7) available on a given device 
+  * Eliminating unnecessary modules and code to reduce the size of the Player App
