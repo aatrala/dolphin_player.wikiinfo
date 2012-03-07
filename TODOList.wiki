@@ -12,12 +12,13 @@
   * Portrait view
   * Support for online Streams (audio, video)
   * Support for opening from other file managers
-  * Better GUI
+  * Improving User Interface
   * Hardware acceleration decoding videos
   * Change audio streams of a video file in run time
   * Change subtitle stream of a video file in run time
   * Auto search videos and audios and show in list
   * Recently played audios, videos
+  * Improve lighting
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
