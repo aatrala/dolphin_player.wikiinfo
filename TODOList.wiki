@@ -37,4 +37,4 @@
 =Research=
   * Various GUI Modifications can be tried out (for eg., New User Interfaces like Clutter UI) to present a better file manager
   * Optimization based on the type of the cpu features(v5,v6,v7) available on a given device 
-  * Eliminating unnecessary modules and code to reduce the size of the Player App
+  * Eliminating unnecessary modules and code to reduce the size of the Player
