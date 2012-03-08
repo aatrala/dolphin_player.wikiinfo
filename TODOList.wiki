@@ -32,7 +32,7 @@
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
-  * Create playlist based on current user emotions
+  * Create playlist based on current user emotions, interest
 
 =Research=
   * Various GUI Modifications can be tried out (for eg., New User Interfaces like Clutter UI) to present a better file manager
