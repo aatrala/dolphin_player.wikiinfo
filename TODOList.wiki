@@ -8,11 +8,11 @@
   * 3gp audio not playing properly
 
 =Enhancements=
+  * support for online video streams and audio streams
+  * audio and video files intent support (support for opening from other file managers)
   * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
   * Integrating libsdl 1.3 - Hardware accelerated video output
   * Portrait view
-  * Support for online Streams (audio, video)
-  * Support for opening from other file managers
   * Improving User Interface
   * Hardware acceleration decoding videos
   * Change audio streams of a video file in run time
