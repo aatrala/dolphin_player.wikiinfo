@@ -5,6 +5,7 @@
   * On incoming call, pause the player (audio/video)
   * Changing aspect ratio, clear the screen
   * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
+  * 3gp audio not playing properly
 
 =Enhancements=
   * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
