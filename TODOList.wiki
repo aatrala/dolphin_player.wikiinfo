@@ -10,7 +10,7 @@
 =Enhancements=
   * support for video streams and audio streams
   * audio and video files intent support (support for opening from other file managers and applications)
-  * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon
+  * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon, X86
   * Integrating libsdl 1.3 - Hardware accelerated video output
   * Portrait view
   * Improving User Interface
