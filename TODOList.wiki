@@ -4,22 +4,23 @@
 =Bugs=
   * On incoming call, pause the player (audio/video)
   * Changing aspect ratio, clear the screen
-  * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
   * 3gp audio not playing properly
+  * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
 
 =Enhancements=
   * support for video streams and audio streams
   * audio and video files intent support (support for opening from other file managers and applications)
+  * Change audio streams of a video file in run time
+  * Change subtitle stream of a video file in run time
+  * Gesture support
+  * Improve lighting
   * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon, X86
   * Integrating libsdl 1.3 - Hardware accelerated video output
   * Portrait view
   * Improving User Interface
   * Hardware acceleration decoding videos
-  * Change audio streams of a video file in run time
-  * Change subtitle stream of a video file in run time
   * FileManager - Auto search videos and audios and show in list
   * FileManager - Recently played audios, videos 
-  * Improve lighting
   * File manager - video thumbnail support
   * Audio enhancement plugins - Fast playing, Slow playing, Audio amplifications, SRS
   * playing HD videos
