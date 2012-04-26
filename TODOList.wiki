@@ -33,6 +33,8 @@
   * Notifications ??
   * Showing current time, dragged by User in Seek bar
   * Exposing the player engine as a Service
+  * DLNA support
+  
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
