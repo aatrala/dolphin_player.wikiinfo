@@ -6,7 +6,7 @@
   * Changing aspect ratio, clear the screen
   * 3gp audio not playing properly
   * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv) 
-  * (Need to study the following links for improvement:
+  (Need to study the following links for improvement:
   http://www.gamedev.net/topic/370896-playing-back-video-with-sdl/
   iffplay.googlecode.com/files/ffplay.c
   https://github.com/frankandrobot/FFvideoLiveWallpaper 
