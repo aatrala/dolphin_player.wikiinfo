@@ -5,7 +5,13 @@
   * On incoming call, pause the player (audio/video)
   * Changing aspect ratio, clear the screen
   * 3gp audio not playing properly
-  * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv)
+  * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv) 
+    (Need to study the following links for improvement:
+    http://www.gamedev.net/topic/370896-playing-back-video-with-sdl/
+    iffplay.googlecode.com/files/ffplay.c
+    https://github.com/frankandrobot/FFvideoLiveWallpaper 
+    Put all types of print(C,Java) in a Debug define. Remove any sort of print in Release code)
+
 
 =Enhancements=
   * support for video streams and audio streams
