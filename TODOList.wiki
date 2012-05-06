@@ -40,6 +40,7 @@
   * Showing current time, dragged by User in Seek bar
   * Exposing the player engine as a Service
   * DLNA support
+  * Shoutcast radio support
   
 
 =Futuristic features=
