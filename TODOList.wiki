@@ -14,6 +14,7 @@
 
 
 =Enhancements=
+  * support for translations - arabic, indonesian, portugese, spanish, thai, vietnamese
   * support for video streams and audio streams
   * audio and video files intent support (support for opening from other file managers and applications)
   * Change audio streams of a video file in run time
