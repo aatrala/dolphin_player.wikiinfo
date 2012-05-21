@@ -1,4 +1,3 @@
-
 = Possible areas for improvement - video lag issue =
 
   * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86) at ndk various libraries
@@ -10,10 +9,13 @@
   * set higher priority process, thread for the application
   * read the file contents and keep in memory as much as possible (queue size)
   * skip bidrectional frames 
-  * set optimized settings in FFmpeg
-  * 16bit or 24bit rendering based on lag condition
+  * set optimized settings in FFmpeg for faster decoding
+  * 16bit or 24bit rendering based on video lag condition
   * Profiling the code for identifying places using most cpu time
 
 = Known questions without answers =
 
   * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?
+
+= Suggestions =
+  * Send your suggestions and any possible solutions to aatrala@gmail.com
