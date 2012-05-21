@@ -18,4 +18,4 @@
   * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?
 
 = Suggestions =
-  * Send your suggestions and any possible solutions to aatrala@gmail.com
+  * Send your suggestions or any possible solutions to aatrala@gmail.com
