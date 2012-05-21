@@ -1,11 +1,8 @@
-#Video lagging issue
 
-= Introduction =
+= Possible areas for improvement - video lag issue =
 
-= Analyzable areas for improvements - video lag issue =
-
-  * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86)
-  * direct calling of opengl without sdl for video, audio
+  * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86) at ndk various libraries
+  * direct calling of opengl without going through sdl for video, audio
   * use arm assembly code for copying pixels between arrays
   * use arm assembly code for yuv 2 rgb
   * use inbuilt decoder for known file formats (avi)
@@ -15,8 +12,8 @@
   * skip bidrectional frames 
   * set optimized settings in FFmpeg
   * 16bit or 24bit rendering based on lag condition
-  * 
+  * Profiling the code for identifying places using most cpu time
 
-= Known questions =
+= Known questions without answers =
 
   * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?
