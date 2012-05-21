@@ -1,0 +1,22 @@
+#Video lagging issue
+
+= Introduction =
+
+= Analyzable areas for improvements - video lag issue =
+
+  * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86)
+  * direct calling of opengl without sdl for video, audio
+  * use arm assembly code for copying pixels between arrays
+  * use arm assembly code for yuv 2 rgb
+  * use inbuilt decoder for known file formats (avi)
+  * use hardware acceleration
+  * set higher priority process, thread for the application
+  * read the file contents and keep in memory as much as possible (queue size)
+  * skip bidrectional frames 
+  * set optimized settings in FFmpeg
+  * 16bit or 24bit rendering based on lag condition
+  * 
+
+= Known questions =
+
+  * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?
