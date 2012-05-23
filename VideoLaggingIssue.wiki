@@ -12,7 +12,7 @@
   * set optimized settings in FFmpeg for faster decoding
   * 16bit or 24bit rendering based on video lag condition
   * Profiling the code for identifying places using most cpu time
-  * no debug print statements in release build
+  * no debug print statements in release build and during video playtime - consumes time
 
 = Known questions without answers =
 
