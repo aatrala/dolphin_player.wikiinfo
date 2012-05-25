@@ -43,7 +43,7 @@
   * Exposing the player engine as a Service
   * DLNA support
   * Shoutcast radio support
-  
+  * Providing the player as an Android service  
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
