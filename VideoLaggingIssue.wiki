@@ -12,11 +12,14 @@
   * set optimized settings in FFmpeg for faster decoding
   * 16bit or 24bit rendering based on video lag condition
   * Profiling the code for identifying places using most cpu time
-  * no debug print statements in release build and during video playtime - consumes time
+  * no debug print statements in release build and during video playtime - consumes time 
+  * multi threaded single frame decoding, and multi threaded - multiple frames decoding -ffmpeg
+  * skip frames algorithm - even after optimization, time taken to decode and show a frame to screen is greater than the time required to put the frame on screen 
 
 = Known questions without answers =
 
   * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?
+    (skip frames ??)
 
 = Suggestions =
   * Send your suggestions or any possible solutions to aatrala@gmail.com
