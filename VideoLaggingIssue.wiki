@@ -16,6 +16,8 @@
   * multi threaded single frame decoding, and multi threaded - multiple frames decoding -ffmpeg
   * skip frames algorithm - even after optimization, time taken to decode and show a frame to screen is greater than the time required to put the frame on screen 
   * Time slicing by OS for each thread(Read packets, Decode Video, Audio Thread, Put Frames to Screen thread) needs to be verified.(Whether they are given equal time slices, concurrently)
+  * Process specific optimization during compilation
+  * Remove debugging symbols and any profiling related code in release build
 
 = Known questions without answers =
 
