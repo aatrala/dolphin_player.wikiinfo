@@ -1,24 +1,25 @@
 = Possible areas for improvement - video lag issue =
 
-  * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86) at ndk various libraries
-  * direct calling of opengl without going through sdl for video, audio
-  * use arm assembly code for copying pixels between arrays
-  * use arm assembly code for yuv 2 rgb
-  * use inbuilt decoder for known file formats (avi)
-  * use hardware acceleration
-  * set higher priority process, thread for the application
+  * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86) at ndk various libraries -doable
+  * direct calling of opengl without going through sdl for video, audio -doable
+  * use arm assembly code for copying pixels between arrays -code available
+  * use arm assembly code for yuv 2 rgb -code available
+  * use inbuilt decoder for known file formats (avi) -code not available
+  * use hardware acceleration - not available
+  * set higher priority process, thread for the application -doable
   * read the file contents and keep in memory as much as possible (queue size)
   * skip bidrectional frames 
   * set optimized settings in FFmpeg for faster decoding
   * 16bit or 24bit rendering based on video lag condition
   * Profiling the code for identifying places using most cpu time
-  * no debug print statements in release build and during video playtime - consumes time 
-  * multi threaded single frame decoding, and multi threaded - multiple frames decoding -ffmpeg
+  * no debug print statements in release build and during video playtime - consumes time -done
+  * multi threaded single frame decoding
+  * multi threaded - parallel frames decoding -ffmpeg
   * skip frames algorithm - even after optimization, time taken to decode and show a frame to screen is greater than the time required to put the frame on screen 
   * Time slicing by OS for each thread(Read packets, Decode Video, Audio Thread, Put Frames to Screen thread) needs to be verified.(Whether they are given equal time slices, concurrently)
   * Process specific optimization during compilation
   * Remove debugging symbols and any profiling related code in release build
-
+  * using gstreamer framework ??
 = Known questions without answers =
 
   * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?
