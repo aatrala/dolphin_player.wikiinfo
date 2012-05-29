@@ -2,7 +2,8 @@
 *List of tasks pending in Dolphin Player*
 
 =Bugs=
-  * On incoming call, pause the player (audio/video)
+  * On incoming call, pause the player (audio/video) - fixed
+  * Hide status bar in ICS when playing audio/video file
   * Changing aspect ratio, clear the screen
   * 3gp audio not playing properly
   * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv) 
