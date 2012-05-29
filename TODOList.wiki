@@ -45,6 +45,7 @@
   * DLNA support
   * Shoutcast radio support
   * Providing the player as an Android service  
+  * compiling ffmpeg lib with all codecs, include external libraries
 
 =Futuristic features=
   * Speech recognition for player controls `[Ongoing`]
