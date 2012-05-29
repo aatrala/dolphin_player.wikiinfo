@@ -21,9 +21,7 @@
   * Remove debugging symbols and any profiling related code in release build
   * using gstreamer framework ??
 = Known questions without answers =
-
-  * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?
-    (skip frames ??)
+  * what to do if the decoding of a frame itself is >40ms, for a frame rate of 25FPS ?  skip frames ??
 
 = Suggestions =
   * Send your suggestions or any possible solutions to aatrala@gmail.com
