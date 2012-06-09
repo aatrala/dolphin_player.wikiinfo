@@ -21,6 +21,7 @@
   * Time slicing by OS for each thread(Read packets, Decode Video, Audio Thread, Put Frames to Screen thread) needs to be verified.(Whether they are given equal time slices, concurrently)
   * Process specific optimization during compilation
   * Java overhead for layout, display
+  * Using surface flinger in native ??
 
 ==Details required==
   * use inbuilt decoder for known file formats (avi)
