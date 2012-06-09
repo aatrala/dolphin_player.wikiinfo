@@ -22,6 +22,7 @@
   * Process specific optimization during compilation
   * Java overhead for layout, display
   * Using surface flinger in native ??
+  * Use profiler and convert heavily used methods to assembly arm/x86
 
 ==Details required==
   * use inbuilt decoder for known file formats (avi)
