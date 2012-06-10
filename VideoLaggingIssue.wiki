@@ -1,13 +1,13 @@
 = Possible areas for improvement - video lag issue =
 
 ==Tasks finished==
-  * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86) at ndk various libraries -doable
-  * Profiling the code for identifying places using most cpu time - done 
-  * no debug print statements in release build and during video playtime - consumes time -done
-  * set higher priority process, thread for the application -doable
+  * CPU specific optimized compilation (v5, v6,v6vfp, v7, neon, x86) at ndk various libraries
+  * Profiling the code for identifying places using most cpu time 
+  * no debug print statements in release build and during video playtime - consumes time
+  * set higher priority process, thread for the application 
   * Remove debugging symbols and any profiling related code in release build
   * skip frames algorithm - even after optimization, time taken to decode and show a frame to screen is greater than the time required to put the frame on screen 
-  * read the file contents and keep in memory as much as possible (queue size) - done
+  * read the file contents and keep in memory as much as possible (queue size) 
   * use arm assembly code for yuv 2 rgb -code available
   * set optimized settings in FFmpeg for faster decoding - code available
  
