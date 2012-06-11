@@ -13,27 +13,20 @@
  
 =Enhancements=
   * support for translations - arabic, indonesian, portugese, spanish, thai, vietnamese
-  * support for gpl, non-free, lame, faac, x264, theora and additional codecs in ffmpeg compilation
   * plugin support
-  * Change audio streams of a video file in run time
-  * Change subtitle stream of a video file in run time
-  * Gesture support
-  * Improve brightness from UI for media
+  * Change audio streams, subtitle stream of a video file in run time
+  * Brightness, Volume and Seek using Gesture control
   * check for mobile model while running, download the relevant ffmpeg from internet or ask user to place the proper so file in the sdcard. Load the same accordingly
-  * Integrating latest FFmpeg with all codecs for V5, V6, V6VFP, V7, V7Neon, X86
+  * Integrating latest FFmpeg with all codecs, gpl(xvid,x264,theora,..) for V5, V6, V6VFP, V7, V7Neon, X86
   * Integrating libsdl 1.3 - Hardware accelerated video output
   * Portrait view
-  * Improving User Interface
-  * Hardware acceleration decoding videos
+  * Hardware acceleration decoding videos - stagefright/openmax/inbuilt codec -opencore
   * FileManager - Auto search videos and audios and show in list
   * FileManager - Recently played audios, videos 
   * File manager - video thumbnail support
   * Audio enhancement plugins - Fast playing, Slow playing, Audio amplifications, SRS
   * playing HD videos
   * Better, Pleasing look & feel UI
-  * Keyboard support
-  * Widget support
-  * Notifications ??
   * Showing current time, dragged by User in Seek bar
   * Exposing the player engine as a Service
   * DLNA support
@@ -47,7 +40,12 @@
 =Research=
   * Various GUI Modifications can be tried out (for eg., New User Interfaces like Clutter UI) to present a better file manager
   * Optimization based on the type of the cpu features(v5,v6,v7, v7neon) available on a given device 
+
+=Minor=
   * Eliminating unnecessary modules and code to reduce the size of the Player
+  * Keyboard support
+  * Widget support
+  * Notifications ??
 
 =Closed Items=
  * On incoming call, pause the player (audio/video) - fixed
