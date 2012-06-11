@@ -30,9 +30,7 @@
   * File manager - video thumbnail support
   * Audio enhancement plugins - Fast playing, Slow playing, Audio amplifications, SRS
   * playing HD videos
-  * Verifying existing translations of App
-  * Translations are to be created for new languages
-  * Better Icons & Images for Player
+  * Better, Pleasing look & feel UI
   * Keyboard support
   * Widget support
   * Notifications ??
