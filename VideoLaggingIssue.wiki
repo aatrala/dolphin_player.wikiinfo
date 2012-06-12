@@ -23,6 +23,7 @@
   * Java overhead for layout, display
   * Using surface flinger in native ??
   * Use profiler and convert heavily used methods to assembly arm/x86
+  * Look at gstreamer, vlc ->looks like, they are using surface flinger
 
 ==Details required==
   * use inbuilt decoder for known file formats (avi)
