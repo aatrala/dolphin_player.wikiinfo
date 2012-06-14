@@ -4,7 +4,6 @@
 =Bugs=
   * Hide status bar in ICS when playing audio/video file
   * Changing aspect ratio, clear the screen
-  * 3gp audio not playing properly
   * video lagging problem - Better frame skip algorithm/ optimized playing of videos (for eg., playing compressed videos like mkv) 
   (Need to study the following links for improvement:
   http://www.gamedev.net/topic/370896-playing-back-video-with-sdl/
@@ -53,3 +52,4 @@
  * support for video streams and audio streams - Use .astream, .vstream file having the 
  first line as the URL link
  *  audio and video files intent support (support for opening from other file managers and applications)
+ * 3gp audio not playing properly
