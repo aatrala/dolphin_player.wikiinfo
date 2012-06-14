@@ -49,7 +49,6 @@
 =Closed Items=
  * On incoming call, pause the player (audio/video) - fixed
  * Put all types of print(C,Java) in a Debug define. Remove any sort of print in Release code)
- * support for video streams and audio streams - Use .astream, .vstream file having the 
- first line as the URL link
+ * support for video streams and audio streams - Use .astream, .vstream file having the first line as the URL link
  *  audio and video files intent support (support for opening from other file managers and applications)
  * 3gp audio not playing properly
