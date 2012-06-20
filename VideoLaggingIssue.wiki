@@ -25,6 +25,7 @@
   * Use profiler and convert heavily used methods to assembly arm/x86
   * Look at gstreamer, vlc ->looks like, they are using surface flinger
   * optimized arm compilation using the compiler from arm.com
+  * Use libmedia, libsurfaceflinger_client based output of audio and video
 
 ==Details required==
   * use inbuilt decoder for known file formats (avi)
