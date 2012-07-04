@@ -11,12 +11,10 @@
   https://github.com/frankandrobot/FFvideoLiveWallpaper 
  
 =Enhancements=
-  * support for translations - arabic, indonesian, portugese, spanish, thai, vietnamese
   * plugin support
   * Change audio streams, subtitle stream of a video file in run time
   * Brightness, Volume and Seek using Gesture control
   * check for mobile model while running, download the relevant ffmpeg from internet or ask user to place the proper so file in the sdcard. Load the same accordingly
-  * Integrating latest FFmpeg with all codecs, gpl(xvid,x264,theora,..) for V5, V6, V6VFP, V7, V7Neon, X86
   * Integrating libsdl 1.3 - Hardware accelerated video output
   * Portrait view
   * Hardware acceleration decoding videos - stagefright/openmax/inbuilt codec -opencore
@@ -52,3 +50,6 @@
  * support for video streams and audio streams - Use .astream, .vstream file having the first line as the URL link
  *  audio and video files intent support (support for opening from other file managers and applications)
  * 3gp audio not playing properly
+ * support for translations - arabic, indonesian, portugese, spanish, thai, vietnamese
+  * Integrating latest FFmpeg with all codecs, gpl(xvid,x264,theora,..) for V5, V6, V6VFP, V7, V7Neon, X86
+ 
